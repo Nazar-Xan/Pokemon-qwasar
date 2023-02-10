@@ -12,7 +12,7 @@ function Header({ text, setText, setPage }) {
   return (
     <div className="app w-full flex flex-col pt-6 pb-2 items-center justify-center md:justify-between md:flex-row ">
       <Link to={"/"} className="w-1/3 mb-4 md:mb-0" onClick={() => setPage(1)}>
-        <img src={img} alt="" className="w-full" />
+        <img src={img} alt="" className="w-full object-scale-down h-48 " />
       </Link>
       <form action="" className="w-2/3 md:w-1/3" onSubmit={handeSearch}>
         <input

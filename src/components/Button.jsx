@@ -1,5 +1,4 @@
 import React from "react";
-
 function Button({ setPage, page, totalPage }) {
   return (
     <div className="flex items-center justify-center pb-6 pt-4">
